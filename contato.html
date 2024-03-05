@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meta Inc</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="stylesheet" href="estilos/estilocontato.css">
+</head>
+<body>
+<header>
+    <img src="imagens/img.png" alt="logomarca" id="logomarca">
+</header>
+<nav id="menu">
+    <ul>
+        <a href="index.html">
+            <li>HOME</li>
+        </a>
+        <a href="produtos.html">
+            <li>PRODUTOS</li>
+        </a>
+        <a href="contato.html">
+            <li>CONTATO</li>
+        </a>
+    </ul>
+</nav>
+<main>
+    <article>
+        <form class="formularioContato">
+            <section>
+                <label for="name">Nome:</label>
+            </section>
+            <section>
+                <input type="text" id="name" name="name" required>
+            </section>
+            <section>
+                <label for="email">Email:</label>
+            </section>
+            <section>
+                <input type="email" id="email" name="email" required>
+            </section>
+            <section>
+                <label for="subject">Assunto:</label>
+            </section>
+            <section>
+                <input type="text" id="subject" name="subject" required>
+            </section>
+            <section>
+                <label for="message">Mensagem:</label>
+            </section>
+            <section>
+                <textarea id="message" name="message" required></textarea>
+            </section>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </article>
+</main>
+<footer>
+    <p>Meta Inc - Todos os direitos reservados</p>
+</footer>
+</body>
+</html>
